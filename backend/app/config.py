@@ -4,7 +4,6 @@ from pydantic_settings import BaseSettings
 class Settings(BaseSettings):
     SUPABASE_URL: str
     SUPABASE_SERVICE_KEY: str
-    SUPABASE_JWT_SECRET: str
     OPENAI_API_KEY: str = ""
     STORAGE_BUCKET: str = "audio"
 
